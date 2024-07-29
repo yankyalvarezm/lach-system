@@ -89,3 +89,7 @@
   color: black !important;
   font-weight: 600;
 }
+
+.form-generator-form {
+    background-color: white;
+}
