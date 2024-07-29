@@ -5,7 +5,7 @@ const UserContext = createContext();
 function UserProvider({ children }) {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [users] = useState([
-    { username: "lachglobal", password: "rickyDescargado" },
+    { username: "lachglobal", password: "1234" },
   ]);
 
   return (
