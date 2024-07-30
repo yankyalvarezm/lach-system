@@ -166,9 +166,9 @@ const FormGenerator = () => {
         } else if (data.departede === "SpotMeUp") {
           addImageToPDF(doc, img, 10, 230, 20, 20);
         } else if (data.departede === "Bunker") {
-          addImageToPDF(doc, img, 10, 230, 30, 15);
+          addImageToPDF(doc, img, 10, 250, 30, 15);
         } else if (data.departede === "Neutro") {
-          addImageToPDF(doc, img, 10, 230, 50, 15);
+          addImageToPDF(doc, img, 10, 250, 50, 10);
         } else {
           addImageToPDF(doc, img, 10, 10, 25, 25);
         }
